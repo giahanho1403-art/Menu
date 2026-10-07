@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Vintage Food Menu</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: #efe2c6;
+            color: #4b3025;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        .menu {
+            width: 85%;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #f8efd9;
+            border: 5px double #6b4635;
+            box-shadow: 8px 8px 0 #b89b72;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #6b4635;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 45px;
+            letter-spacing: 5px;
+            margin: 10px 0;
+            color: #59382c;
+        }
+
+        .subtitle {
+            font-style: italic;
+            font-size: 18px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 25px;
+            margin-top: 30px;
+            color: #6b4635;
+        }
+
+        /* Danh sách */
+        ul {
+            width: 70%;
+            margin: auto;
+            line-height: 2;
+            font-size: 18px;
+        }
+
+        ol {
+            width: 70%;
+            margin: auto;
+            line-height: 2;
+            font-size: 18px;
+        }
+
+        li::marker {
+            color: #8a6048;
+        }
+
+        /* Bảng */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fdf6e5;
+        }
+
+        th {
+            background-color: #76503c;
+            color: #fff5df;
+            padding: 14px;
+            font-size: 17px;
+        }
+
+        td {
+            border: 1px solid #9d8065;
+            padding: 13px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1e4c9;
+        }
+
+        tr:hover {
+            background-color: #e7d4ae;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #6b4635;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+
+        <header>
+            <h1>VINTAGE FOOD</h1>
+            <p class="subtitle">Traditional Vietnamese Cuisine</p>
+            <p>✦ Est. 1985 ✦</p>
+        </header>
+
+        <h2>✦ OUR MENU ✦</h2>
+
+        <ul>
+            <li>Phở Bò</li>
+            <li>Bún Bò Huế</li>
+            <li>Cơm Tấm</li>
+            <li>Bánh Mì</li>
+            <li>Gỏi Cuốn</li>
+        </ul>
+
+        <h2>✦ TOP 3 FAVORITES ✦</h2>
+
+        <ol>
+            <li>Phở Bò</li>
+            <li>Cơm Tấm</li>
+            <li>Bún Bò Huế</li>
+        </ol>
+
+        <h2>✦ FOOD & PRICE ✦</h2>
+
+        <table>
+            <tr>
+                <th>Tên món</th>
+                <th>Giá</th>
+                <th>Loại món</th>
+                <th>Tình trạng</th>
+            </tr>
+
+            <tr>
+                <td>Phở Bò</td>
+                <td>50.000đ</td>
+                <td>Món nước</td>
+                <td>Còn món</td>
+            </tr>
+
+            <tr>
+                <td>Bún Bò Huế</td>
+                <td>55.000đ</td>
+                <td>Món nước</td>
+                <td>Còn món</td>
+            </tr>
+
+            <tr>
+                <td>Cơm Tấm</td>
+                <td>45.000đ</td>
+                <td>Món cơm</td>
+                <td>Còn món</td>
+            </tr>
+
+            <tr>
+                <td>Bánh Mì</td>
+                <td>25.000đ</td>
+                <td>Đồ ăn nhanh</td>
+                <td>Còn món</td>
+            </tr>
+
+            <tr>
+                <td>Gỏi Cuốn</td>
+                <td>35.000đ</td>
+                <td>Món cuốn</td>
+                <td>Còn món</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            <p>❦ Delicious food, timeless memories ❦</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
